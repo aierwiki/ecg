@@ -10,4 +10,5 @@ curl -O $url/sample2017.zip
 unzip sample2017.zip
 curl -O $url/REFERENCE-v3.csv
 
+cd ..
 python build_datasets.py
